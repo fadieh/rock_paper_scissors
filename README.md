@@ -45,3 +45,50 @@ The features are as follows:
 	- A winner will be declared
 
 ===========================================
+
+					CRC
+
+===========================================
+
+					GAME
+
+Responsibilities
+
+	- The game can have a player added.
+	- The game can have a second player
+	  added (BONUS.)
+	- Knows when they're two players.
+	- Knows whose turn it is.
+	- Switches turns when player 1 has a
+	  go.
+	- Receives a go from a player.
+	- Know if there is a winner.
+	- Calculate the score.
+	- Knows what beats what.
+	- Knows when it's a draw.
+
+Interactions
+
+	- Player
+	- Rock
+	- Paper
+	- Scissor
+
+--------------------------------------------
+
+					PLAYER
+
+Responsibilities
+
+	- Can have a name.
+	- Presented with a choice of three.
+	- Choose either rock, paper, scissor.
+
+Interactions
+
+	- Player
+	- Rock
+	- Paper
+	- Scissor
+
+--------------------------------------------
